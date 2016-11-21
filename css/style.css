@@ -1,0 +1,91 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;	
+}
+#bj{
+	width: 1280px;
+	height: 680px;
+	background-size: cover;
+}
+#prewalk{
+	-webkit-transition: all 	2s;
+	-moz-transition: all 2s;
+	-ms-transition: all 2s;
+	-o-transition: all 2s;
+	transition: all 2s ease-out;
+	position: absolute;
+}
+#hat{
+	position: absolute;
+	top: 205px;
+	left: 1194px;
+	z-index: 4;
+}
+#glass{
+	position: absolute;
+	top: 275px;
+	left: 1190px;
+	z-index: 4;
+}
+#wj{
+	position: absolute;
+	top: 345px;
+	left: 1190px;
+	z-index: 2;
+}
+#head{
+	position: absolute;
+	top: 280px;
+	left: 1200px;
+	z-index: 3;
+	
+}
+
+#body{
+	position: absolute;
+	top: 380px;
+	left: 1200px;
+	z-index: 1;
+}
+#arm1{
+	transform:rotate(-30deg);
+	position: absolute;
+	top: 345px;
+	left: 1140px;
+	z-index: 0;
+	transition: all 1s ease;
+	transform-origin: right;
+	
+	
+}
+
+#arm2{
+	position: absolute;
+	top: 350px;
+	left: 1190px;
+	z-index: 3;
+	transform:rotate(20deg);
+	transition: all 1s ease; 
+	transform-origin: right;
+	
+	
+}
+#leg1{
+	transform-origin: top;
+	transform:rotate(30deg);
+	position: absolute;
+	top: 482px;
+	left: 1170px;
+	transition: all 1s ease; 
+	
+}
+#leg2{
+	transform-origin: top;
+	transform:rotate(-30deg);
+	position: absolute;
+	top: 482px;
+	left: 1200px;
+	transition: all 1s ease; 
+	
+}
